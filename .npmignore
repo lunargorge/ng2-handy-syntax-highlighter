@@ -57,6 +57,19 @@ npm-debug.log
 # Doc #
 /doc/
 
+#src/app
+/src/app
+/src/meta
+/src/assets
+/src/index.html
+/config
+/.vscode
+/karma.conf.js
+/protractor.conf.js
+/tsconfig.json
+/webpack.config.js
+
+
 # IDE #
 .idea/
 *.swp
