@@ -18,7 +18,7 @@
   <h3 class="sample-content mt-3">
     Configuration
   </h3>
-  In your module:
+  In your module add Ng2HandySyntaxHighlighterModule:
   <handy-syntax-highlighter [language]="'typescript'"
                             [content]="example"
   ></handy-syntax-highlighter>
@@ -26,6 +26,11 @@
   In index.html:
   <handy-syntax-highlighter [language]="'html'"
                             [content]="html"
+  ></handy-syntax-highlighter>
+
+  Activate prismjs in app:
+  <handy-syntax-highlighter [language]="'typescript'"
+                            [content]="prismjs"
   ></handy-syntax-highlighter>
 
   <h3 class="sample-content mt-3">

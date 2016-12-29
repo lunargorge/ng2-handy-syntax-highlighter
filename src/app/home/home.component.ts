@@ -19,12 +19,23 @@ let html: string = `
 <head>
   <meta charset="utf-8">
   <!-- Load the prismjs theme css in your single page: e.g prism-dark.css -->
-  <link rel="stylesheet" href="/assets/css/prism-okaidia.css">
+  <link rel="stylesheet" href="<path>/prism-okaidia.css">
 </head>
 <body>
   <!-- body -->
 </body>
 </html>
+`;
+
+let prismjs: string = `
+// in index.html
+<script src="<path>/prism.js" data-manual></script>
+
+// OR in typescript file (e.g. vendor.browser.ts)
+import 'prismjs';
+import 'prismjs/components/prism-javascript';
+import 'prismjs/components/prism-typescript';
+// import 'prismjs/components/prism-<language>';
 `;
 
 let use: string = `
@@ -40,6 +51,8 @@ export class HomeComponent {
   example: string = example;
   html: string = html;
   use: string = use;
+  prismjs: string = prismjs;
+
   constructor() {
 
   }
