@@ -12,7 +12,7 @@ import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { HomeComponent } from './home';
 import { NoContentComponent } from './no-content';
 import { Ng2HandySyntaxHighlighterModule } from '../library/index';
-import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+// import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -39,7 +39,7 @@ const APP_PROVIDERS = [
   providers: [ // expose our Services and Providers into Angular's dependency injection
     ENV_PROVIDERS,
     APP_PROVIDERS,
-    {provide: LocationStrategy, useClass: PathLocationStrategy},
+    // {provide: LocationStrategy, useClass: PathLocationStrategy},
   ]
 })
 export class AppModule {
