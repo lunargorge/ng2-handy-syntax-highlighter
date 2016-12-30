@@ -62,13 +62,22 @@ npm-debug.log
 /src/meta
 /src/assets
 /src/index.html
+/src/main.browser.js
+/src/polyfills.browser.ts
+/src/vendor.browser.ts
 /config
 /.vscode
+/.editorconfig
+/.gitignore
+/.nvmrc
+/.travis.yml
 /karma.conf.js
 /protractor.conf.js
 /tsconfig.json
 /webpack.config.js
-
+/tslint.json
+/Dockerfile
+/typedoc.json
 
 # IDE #
 .idea/

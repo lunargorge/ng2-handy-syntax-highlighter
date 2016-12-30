@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -9,7 +10,7 @@
     "sourceMap": true,
     "noEmitHelpers": true,
     "strictNullChecks": false,
-    "baseUrl": "./src",
+    "baseUrl": "./src/library",
     "paths": {
     },
     "lib": [
@@ -28,7 +29,9 @@
   },
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "coverage",
+    "src/app"
   ],
   "awesomeTypescriptLoaderOptions": {
     "forkChecker": true,

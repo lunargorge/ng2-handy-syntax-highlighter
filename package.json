@@ -1,6 +1,6 @@
 {
   "name": "ng2-handy-syntax-highlighter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Syntax highlighter, prismjs",
   "keywords": [
     "syntax highlighter",
@@ -14,6 +14,7 @@
   "homepage": "http://highlighter.diamondtower.pl/",
   "license": "MIT",
   "scripts": {
+    "pub": "tsc -p tsconfig-npm.json && npm publish",
     "build:dev": "webpack --config config/webpack.dev.js --progress --profile",
     "build:docker": "npm run build:prod && docker build -t angular2-webpack-start:latest .",
     "build:prod": "webpack --config config/webpack.prod.js  --progress --profile --bail",
