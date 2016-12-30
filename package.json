@@ -3,16 +3,17 @@
   "version": "1.0.1",
   "description": "Syntax highlighter, prismjs",
   "keywords": [
-    "angular2",
     "syntax highlighter",
+    "highlighter",
     "prismjs",
-    "highlighter"
+    "angular2",
+    "webpack",
+    "typescript"
   ],
   "author": "Lunar Gorge <lunargorge@gmail.com>",
   "homepage": "http://highlighter.diamondtower.pl/",
   "license": "MIT",
   "scripts": {
-    "prepublish": "tsc",
     "build:dev": "webpack --config config/webpack.dev.js --progress --profile",
     "build:docker": "npm run build:prod && docker build -t angular2-webpack-start:latest .",
     "build:prod": "webpack --config config/webpack.prod.js  --progress --profile --bail",
