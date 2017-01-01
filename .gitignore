@@ -62,6 +62,14 @@ npm-debug.log
 *.swp
 
 # Ignored files #
-*.js
+/index.js
+/src/main.browser.js
+/src/vendor.browser.js
+/src/polyfills.browser.js
+/src/app/*.js
+/src/app/**/*.js
+/src/library/*.js
+/src/library/**/*.js
 *.map
 *.d.ts
+!/src/custom-typings.d.ts
