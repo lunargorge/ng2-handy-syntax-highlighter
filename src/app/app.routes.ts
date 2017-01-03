@@ -5,9 +5,6 @@ import { NoContentComponent } from './no-content';
 export const ROUTES: Routes = [
   { path: '',      component: HomeComponent },
   { path: 'home',  component: HomeComponent },
-  {
-    path: 'demo', loadChildren: () => System.import('./+demo')
-    .then((comp: any) => comp.default),
-  },
+  { path: 'demo', loadChildren: './+demo/index#DemoModule'},
   { path: '**',    component: NoContentComponent },
 ];

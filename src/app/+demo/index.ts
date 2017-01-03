@@ -23,6 +23,6 @@ export const routes = [
     RouterModule.forChild(routes),
   ]
 })
-export default class DemoModule {
+export class DemoModule {
 
 }
