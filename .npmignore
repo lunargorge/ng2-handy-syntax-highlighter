@@ -53,6 +53,7 @@ npm-debug.log
 /dist/**
 /.awcache
 .webpack.json
+/compiled/
 
 # Doc #
 /doc/
@@ -65,7 +66,7 @@ npm-debug.log
 /src/main.browser.js
 /src/polyfills.browser.ts
 /src/vendor.browser.ts
-/config
+/config2
 /.vscode
 /.editorconfig
 /.gitignore

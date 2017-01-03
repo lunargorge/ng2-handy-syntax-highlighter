@@ -4,7 +4,6 @@
 
 // import 'ie-shim'; // Internet Explorer 9 support
 
-
 // import 'core-js/es6';
 // Added parts of es6 which are necessary for your project or your browser support requirements.
 import 'core-js/es6/symbol';
@@ -33,15 +32,38 @@ import 'zone.js/dist/zone';
 // Typescript emit helpers polyfill
 import 'ts-helpers';
 
+// vendor
+import 'prismjs';
+import 'prismjs/components/prism-javascript';
+import 'prismjs/components/prism-typescript';
+import 'prismjs/components/prism-markdown';
+import 'prismjs/components/prism-markup';
+import 'prismjs/components/prism-css';
+import 'prismjs/components/prism-scss';
+import 'prismjs/components/prism-less';
+import 'prismjs/components/prism-sass';
+import 'prismjs/components/prism-yaml';
+import 'prismjs/components/prism-json';
+import 'prismjs/components/prism-apacheconf';
+import 'prismjs/components/prism-nginx';
+import 'prismjs/components/prism-bash';
+import 'prismjs/components/prism-jade';
+import 'prismjs/components/prism-ini';
+import 'prismjs/components/prism-java';
+import 'prismjs/components/prism-perl';
+import 'prismjs/components/prism-php';
+import 'prismjs/components/prism-python';
+import 'prismjs/components/prism-ruby';
+
 if ('production' === ENV) {
   // Production
 
-
 } else {
-  // Development
 
+  // Development
   Error.stackTraceLimit = Infinity;
 
+  /* tslint:disable no-var-requires */
   require('zone.js/dist/long-stack-trace-zone');
 
 }

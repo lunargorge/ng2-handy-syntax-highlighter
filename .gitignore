@@ -52,7 +52,8 @@ npm-debug.log
 /src/*/dist/
 /dist/**
 /.awcache
-.webpack.json
+.webpack.
+/compiled/
 
 # Doc #
 /doc/
