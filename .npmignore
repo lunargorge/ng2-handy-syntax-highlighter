@@ -66,7 +66,7 @@ npm-debug.log
 /src/main.browser.js
 /src/polyfills.browser.ts
 /src/vendor.browser.ts
-/config2
+/config
 /.vscode
 /.editorconfig
 /.gitignore
@@ -74,9 +74,11 @@ npm-debug.log
 /.travis.yml
 /karma.conf.js
 /protractor.conf.js
-/tsconfig.json
 /webpack.config.js
 /tslint.json
+/tsconfig.json
+/tsconfig.webpack.json
+/tsconfig-npm.json
 /Dockerfile
 /typedoc.json
 
@@ -85,5 +87,10 @@ npm-debug.log
 *.swp
 
 # Ignored files #
+*.ngfactory.js
+*.aot.js
+*.aot.metadata.json
+*.ngsummary.json
+*.js.map
 *.ts
 !*.d.ts
