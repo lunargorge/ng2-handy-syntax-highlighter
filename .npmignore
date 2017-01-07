@@ -75,6 +75,7 @@ npm-debug.log
 /karma.conf.js
 /protractor.conf.js
 /tsconfig.json
+/tsconfig.webpack.json
 /tsconfig-npm.json
 /webpack.config.js
 /tslint.json
