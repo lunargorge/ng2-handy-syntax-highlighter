@@ -74,11 +74,10 @@ npm-debug.log
 /.travis.yml
 /karma.conf.js
 /protractor.conf.js
+/tsconfig.json
+/tsconfig-npm.json
 /webpack.config.js
 /tslint.json
-/tsconfig.json
-/tsconfig.webpack.json
-/tsconfig-npm.json
 /Dockerfile
 /typedoc.json
 

@@ -14,6 +14,7 @@
   "homepage": "http://highlighter.diamondtower.pl/",
   "license": "MIT",
   "scripts": {
+    "pub:aot": "ngc -p tsconfig-npm.json && npm publish",
     "pub": "tsc -p tsconfig-npm.json && npm publish",
     "build:aot:prod": "npm run clean:dist && npm run clean:aot && npm run ngc -- --webpack config/webpack.prod.js && webpack --config config/webpack.prod.js  --progress --profile --bail",
     "build:aot": "npm run build:aot:prod",
