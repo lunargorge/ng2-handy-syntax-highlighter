@@ -9,6 +9,6 @@ import { Component, Input } from '@angular/core';
 `
 })
 export class HandySyntaxHighlighterComponent {
-  @Input() language: string;
-  @Input() content: string;
+  @Input() public language: string;
+  @Input() public content: string;
 }

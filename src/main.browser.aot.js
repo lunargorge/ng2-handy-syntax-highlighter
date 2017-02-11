@@ -2,13 +2,13 @@
 /*
  * Angular bootstraping
  */
-var platform_browser_1 = require('@angular/platform-browser');
-var environment_1 = require('./app/environment');
+var platform_browser_1 = require("@angular/platform-browser");
+var environment_1 = require("./app/environment");
 /*
  * App Module
  * our top level module that holds all of our components
  */
-var app_module_ngfactory_1 = require('../compiled/src/app/app.module.ngfactory');
+var app_module_ngfactory_1 = require("../compiled/src/app/app.module.ngfactory");
 /*
  * Bootstrap our Angular app with a top level NgModule
  */

@@ -48,12 +48,12 @@ let use: string = `
   templateUrl: './home.component.html'
 })
 export class HomeComponent {
-  example: string = example;
-  html: string = html;
-  use: string = use;
-  prismjs: string = prismjs;
+  public example: string = example;
+  public html: string = html;
+  public use: string = use;
+  public prismjs: string = prismjs;
 
   constructor() {
-
+    //
   }
 }

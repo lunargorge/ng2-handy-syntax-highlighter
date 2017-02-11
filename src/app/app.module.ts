@@ -43,7 +43,8 @@ const APP_PROVIDERS = [
   ]
 })
 export class AppModule {
-  constructor() {}
+  constructor() {
+    //
+  }
 
 }
-

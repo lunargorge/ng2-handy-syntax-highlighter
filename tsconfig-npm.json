@@ -9,6 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "noEmitHelpers": true,
+    "importHelpers": true,
     "strictNullChecks": false,
     "baseUrl": "./src/library",
     "paths": {
@@ -16,6 +17,9 @@
     "lib": [
       "dom",
       "es6"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
     ],
     "types": [
       "hammerjs",
@@ -38,7 +42,9 @@
     "forkChecker": true,
     "useWebpackText": true
   },
-  "compileOnSave": false,
+ "compileOnSave": false,
   "buildOnSave": false,
-  "atom": { "rewriteTsconfig": false }
+  "atom": {
+    "rewriteTsconfig": false
+  }
 }

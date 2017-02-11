@@ -3,8 +3,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'example',
-  templateUrl: './example.component.html',
-  styleUrls: [ './example.component.css' ],
+  template: `
+    <h3 class="mt-1">The result of the action component</h3>
+    <p>
+      {{helloworld}}
+    </p>
+
+    <!-- This is your full doc-->
+    <example-doc></example-doc>
+  `,
 })
 
 export class ExampleComponent {

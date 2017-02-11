@@ -7,13 +7,13 @@ declare let Prism: any;
 })
 
 export class HighlighterDirective implements AfterViewInit {
-  @Input() language: string;
-  @Input() content: string;
+  @Input() public language: string;
+  @Input() public content: string;
 
   constructor(private eltRef: ElementRef) {
   }
 
-  ngAfterViewInit() {
+  public ngAfterViewInit() {
     this.eltRef.nativeElement.innerHTML = Prism.highlight(this.content, Prism.languages[this.language]);
   }
 }
