@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+span.active {
+    background-color: gray;
+}
+
+.tag {
+    font-size: 100% !important;
+    padding: 0px !important;
+}
+
+.h1-top a {
+    color: #1f2021;
+}
+
+/* My DOC */
+
+.bd-sidebar nav a {
+    display: block;
+    padding: .25rem .75rem;
+    font-size: 12px;
+    color: #99979c;
+}
+
+nav hr {
+    margin: 0;
+}
+
+.nav-tabs .nav-link {
+    font-size: 87% !important;
+}
+
+/* end My DOC */
