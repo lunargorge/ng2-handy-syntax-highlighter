@@ -1,6 +1,7 @@
 /* SystemJS module definition */
-declare var require: any;
+declare var require: NodeRequire;
 declare var module: NodeModule;
 interface NodeModule {
   id: string;
 }
+
